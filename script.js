@@ -1,7 +1,7 @@
 const seedBooks = [
-  { id: crypto.randomUUID(), title: 'JavaScript 程式設計精要', author: 'Marijn Haverbeke', category: '程式設計', desc: 'ES6 觀念清楚，適合期中前複習', imageUrl: './assets/ACL061300.jpg', email: 'js@class.tku.edu.tw', favorite: false },
-  { id: crypto.randomUUID(), title: '統計學：以資料科學為導向', author: 'Freedman', category: '統計/資料科學', desc: '含大量例題，考前救星', imageUrl: '', email: 'stats@class.tku.edu.tw', favorite: false },
-  { id: crypto.randomUUID(), title: '設計的設計', author: '原研哉', category: '設計/藝術', desc: '通識作業參考佳作', imageUrl: '', email: 'design@class.tku.edu.tw', favorite: false },
+  { id: crypto.randomUUID(), title: '史上最強Python入門邁向頂尖高手 - 王者歸來 第4版', author: '洪錦魁', category: '程式設計', desc: '王者歸來，Python學習的最強選擇！', imageUrl: 'assets/getImage (3).jpg', email: '413637xxx@o365.tku.edu.tw', favorite: false },
+  { id: crypto.randomUUID(), title: '白話統計學（第三版）', author: 'Timothy C. Urdan', category: '財金/企管', desc: '這本書是統計學入門者的理想指南!', imageUrl: 'assets/getImage (2).jpg', email: '413636xxx@o365.tku.edu.tw', favorite: false },
+  { id: crypto.randomUUID(), title: '設計的設計', author: '原研哉', category: '設計/藝術', desc: '通識作業參考佳作', imageUrl: 'assets/getImage.jpg', email: '413635xxx@o365.tku.edu.tw', favorite: false },
 ];
 
 const cardGrid = document.querySelector('#cardGrid');
